@@ -11,9 +11,7 @@ DISCORD_BOT_TOKEN = os.environ.get("DISCORD_BOT_TOKEN")
 
 # ここから下を編集してください
 ACTIVITY_NAME = ""  # ACTIVITY_NAMEをプレイ中と表示される
-VIDEO_ID_FREE_CHAT = ""  # フリーチャットのvideo_id()
+VIDEO_ID_FREE_CHAT = ""  # フリーチャットのvideo_id
 EMBED_TITLE = ""  # チャット取得時のタイトル
 CHANNEL_ID_STREAMER = ""  # 検知したいアカウントのchannelId
 CHANNEL_ID_LIVECHAT =   # Livechatを送信するDiscordチャンネルのID
-
-# 編集後にファイル名をconfig.py.sampleからconfig.pyに変更すること．
